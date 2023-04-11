@@ -1,0 +1,17 @@
+{
+  "name": "semana2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec node index.js"
+  },
+  "author": "rubens",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  },
+  "dependencies": {
+    "uuid": "^9.0.0"
+  }
+}

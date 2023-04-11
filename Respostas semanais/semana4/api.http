@@ -1,0 +1,31 @@
+GET http://localhost:8080/
+
+###
+
+GET http://localhost:8080/produtos
+
+
+### 
+POST http://localhost:8080/produtos
+Content-type: application/json
+
+{
+    "nome": "camisa",
+    "descricao": "vestuario",
+    "preco": 50
+}
+
+###
+
+Put http://localhost:8080/produtos?id=1
+Content-type: application/json
+
+{
+    "nome": "calça",
+    "descricao": "vestuario",
+    "preco": 70
+}
+
+###
+
+DELETE http://localhost:8080/produtos?id=a89f8f63-e561-4cec-bbdc-c6ad22edf4f0
